@@ -6,10 +6,10 @@ age = input('Enter your age: ')
 
 age = int(age)
 
-if (age >= 1) and (age <=18):
+if (age >= 1) and (age <= 18):
     print("Important Birthday")
 
-elif(age >= 21) and (age <=50):
+elif(age >= 21) and (age <= 50):
     print("Cool Birthday")
 
 elif not(age < 65):
